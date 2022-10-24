@@ -10,17 +10,15 @@ Inicio
       Escreval("Fim: ")
       Leia(fim)
       contador <- comeco
-      Se(comeco < fim) entao
-         Enquanto (comeco <= fim) faca
-                  Escreval(contador)
+      Se (comeco <= fim) entao
+         Enquanto (contador <= fim) faca
+                  Escreva(contador,"...")
                   contador <- contador + 1
          FimEnquanto
       Senao
-          Se(comeco > fim) entao
-             Enquanto (comeco >= fim) faca
-                      Escreval(contador)
+             Enquanto (contador >= fim) faca
+                      Escreva(contador,"...")
                       contador <- contador - 1
              FimEnquanto
-          FimSe
       FimSe
 Fimalgoritmo
